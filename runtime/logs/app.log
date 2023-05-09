@@ -1,0 +1,1097 @@
+2023-05-09 04:29:56 [::1][-][-][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:29:56 [::1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50612'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683606596.2466
+    'REQUEST_TIME' => 1683606596
+]
+2023-05-09 04:30:59 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: mahasiswa/daftar-krs in C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('daftar-krs', Array)
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-09 04:30:58 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50620'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1683606658.7458
+    'REQUEST_TIME' => 1683606658
+]
+2023-05-09 04:31:21 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:31:21 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50629'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683606681.6777
+    'REQUEST_TIME' => 1683606681
+]
+2023-05-09 04:31:36 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: mahasiswa/daftar-krs in C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('daftar-krs', Array)
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2023-05-09 04:31:36 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50635'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683606696.4806
+    'REQUEST_TIME' => 1683606696
+]
+2023-05-09 04:32:15 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:32:15 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50647'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683606735.6759
+    'REQUEST_TIME' => 1683606735
+]
+2023-05-09 04:33:01 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:33:01 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50655'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683606781.8237
+    'REQUEST_TIME' => 1683606781
+]
+2023-05-09 04:36:55 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:36:55 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50715'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607015.2438
+    'REQUEST_TIME' => 1683607015
+]
+2023-05-09 04:36:57 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:36:57 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50717'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607017.2004
+    'REQUEST_TIME' => 1683607017
+]
+2023-05-09 04:36:57 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:36:57 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50719'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607017.5499
+    'REQUEST_TIME' => 1683607017
+]
+2023-05-09 04:36:57 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:36:57 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50721'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607017.8529
+    'REQUEST_TIME' => 1683607017
+]
+2023-05-09 04:36:58 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:36:58 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50723'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607018.1466
+    'REQUEST_TIME' => 1683607018
+]
+2023-05-09 04:36:58 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:36:58 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50725'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607018.4534
+    'REQUEST_TIME' => 1683607018
+]
+2023-05-09 04:36:58 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:36:58 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50727'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607018.7488
+    'REQUEST_TIME' => 1683607018
+]
+2023-05-09 04:36:59 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "-", expecting "(" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:12
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:36:59 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50729'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607019.1149
+    'REQUEST_TIME' => 1683607019
+]
+2023-05-09 04:51:07 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: Unclosed '{' on line 13 in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:18
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:51:06 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50921'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607866.8628
+    'REQUEST_TIME' => 1683607866
+]
+2023-05-09 04:51:08 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: Unclosed '{' on line 13 in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:18
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:51:08 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50923'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607868.1647
+    'REQUEST_TIME' => 1683607868
+]
+2023-05-09 04:51:29 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "}", expecting ";" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:15
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:51:29 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50925'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607889.4169
+    'REQUEST_TIME' => 1683607889
+]
+2023-05-09 04:52:35 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][error][ParseError] ParseError: syntax error, unexpected token "}", expecting ";" in C:\laragon\www\prak-web-60200121046\controllers\MahasiswaController.php:15
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(661): class_exists('app\\controllers...')
+#2 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID('mahasiswa')
+#3 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController('daftar-krs')
+#4 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('mahasiswa/dafta...', Array)
+#5 C:\laragon\www\prak-web-60200121046\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\laragon\www\prak-web-60200121046\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2023-05-09 04:52:35 [::1][-][rsjf7rfp3rd8f0loqoqruic40o][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_csrf' => 'b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP\";}'
+    'PHPSESSID' => 'rsjf7rfp3rd8f0loqoqruic40o'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'C:\\laragon\\www\\prak-web-60200121046\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '50928'
+    'SERVER_SOFTWARE' => 'PHP 8.1.10 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/mahasiswa/daftar-krs?id=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'C:\\laragon\\www\\prak-web-60200121046\\web\\index.php'
+    'PATH_INFO' => '/mahasiswa/daftar-krs'
+    'PHP_SELF' => '/index.php/mahasiswa/daftar-krs'
+    'QUERY_STRING' => 'id=1'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"112\", \"Google Chrome\";v=\"112\", \"Not:A-Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf=b76f184c11b64f95e30c2fdad6f0faf84731f16261e4d49063f1677315e26b27a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Vy3SThB8HTFd_mlj0SIhYrjsOS_RlPKP%22%3B%7D; PHPSESSID=rsjf7rfp3rd8f0loqoqruic40o'
+    'REQUEST_TIME_FLOAT' => 1683607955.8455
+    'REQUEST_TIME' => 1683607955
+]
