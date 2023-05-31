@@ -1,15 +1,16 @@
 <?php
+    
     use yii\grid\GridView;
+
 ?>
 
 <?=
     GridView::widget([
         'dataProvider' => $dataProvider,
-        'columns' => [
+        'columns' => [  
             'id',
-            'nim',
-            'nama',
-            'kelas',
+            'id_mahasiswa',
+            'foto_profil',
         ]
     ])
 ?>

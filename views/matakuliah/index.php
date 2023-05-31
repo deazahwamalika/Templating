@@ -5,11 +5,10 @@
 <?=
     GridView::widget([
         'dataProvider' => $dataProvider,
-        'columns' => [
-            'id',
-            'nim',
-            'nama',
-            'kelas',
+        'columns' => [  
+            'Id',
+            'Kode_MK',
+            'Nama_MK',
         ]
     ])
 ?>
